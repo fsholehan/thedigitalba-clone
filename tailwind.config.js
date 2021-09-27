@@ -11,7 +11,7 @@ module.exports = {
           450: "#004CFF",
           550: "#D1D1FF",
         },
-        gary: {
+        gray: {
           450: "#A6A8AB",
         },
         purple: {
@@ -35,6 +35,7 @@ module.exports = {
       width: {
         35: "347px",
         50: "500px",
+        55: "540px",
         45: "456px",
         41: "400px",
         47: "437px",
@@ -44,6 +45,7 @@ module.exports = {
         85: "850px",
         100: "1000px",
         45: "560px",
+        53: "530px",
         35: "365px",
         17: "180px",
         47: "436px",
@@ -53,5 +55,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
