@@ -3,9 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      inset: {
+        "-98": "-25rem",
+      },
       colors: {
         blue: {
           450: "#004CFF",
+          550: "#D1D1FF",
         },
         gary: {
           450: "#A6A8AB",
